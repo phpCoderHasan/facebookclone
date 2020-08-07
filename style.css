@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* header css start */
+.container{
+    width: 100%;
+    border-bottom: 1px solid #133783;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #4867aa 50%);
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    padding: 10px 11%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+
+
+.fbLogo>img {
+    width: 195px;
+}
+
+.fbLogin{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 70px;
+}
+
+input#email,#password {
+    width: 142px;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 15px;
+   
+    border: none;
+    offset: 2px;
+    outline: none;
+  
+}
+.password>a{
+    color:  #9cb4d8;;
+}
+#email:focus,#password:focus{
+  outline: none;
+}
+
+input#login {
+    margin-top: 22px;
+    background-color: #4867aa;
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    border: 1px solid #5d6071;
+    cursor: pointer;
+}
+input#login:hover{
+    background-color: #3d56a7;
+}
+
+/* header css end */
+
+
+/* Main element css start */
+
+.mainElement{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 11%;
+   justify-content: space-between;
+   background: rgb(218,222,236);
+background: linear-gradient(0deg, rgba(218,222,236,1) 0%, rgba(218,223,236,1) 0%, rgba(225,229,240,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* left content */
+.leftContent{
+    flex-basis: 450px;
+    flex-wrap: wrap;
+}
+.leftContent>span{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.imageContainer>img{
+    width: 100%;
+}
+
+/* sign up */
+
+input.surname {
+    width: 195px;
+}
+.signupContainer>input{
+    padding: 8px 17px;
+    margin: 10px 0px 13px 3px;
+    font-size: 17px;
+}
+.signupContainer>input:focus{
+    outline: none;
+}
+.emailormobile,.newpassword{
+    width: 100%;
+}
+
+.rightContent>h1{
+    color: #333;
+}
+
+.birthdateWraper>h4{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.birthdateWraper>span{
+    padding: 0 8px;
+}
+
+select.birthdate {
+    padding: 2px 10px 2px 4px;
+}
+
+.gender>h4{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+.gender>span label {
+    font-size: 23px;
+    padding: 0px 16px 0px 5px;
+    color: #1d2129;
+}
+.agreement{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #333;
+}
+.signup{
+    margin-top: 20px;
+}
+.signup>button{
+    padding: 8px 50px 8px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #736f6f;
+    background: linear-gradient(#79bc64, #578843);
+    cursor: pointer;
+}
+
+
+.signup>button:focus{
+    outline: none;
+}
+
+.pagecreate{
+    margin-top: 20px;
+}
+#pageFooter {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+.localeSelectorList {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
